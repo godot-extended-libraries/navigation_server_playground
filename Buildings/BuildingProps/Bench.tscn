@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="Bench" type="Spatial"]
+
+[node name="Backrest" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.336709, -0.00148124 )
+width = 0.0840882
+height = 0.711715
+depth = 2.20075
+
+[node name="Seat" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.166501, 0.152107, 0 )
+width = 0.251034
+height = 0.338961
+depth = 2.20203

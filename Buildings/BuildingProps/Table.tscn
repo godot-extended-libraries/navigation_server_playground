@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="Table" type="Spatial"]
+
+[node name="TableTop" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.712811, 0 )
+use_collision = true
+width = 1.14373
+height = 0.0309285
+
+[node name="TableStand" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35114, 0 )
+width = 0.173878
+height = 0.687929
+depth = 0.172066

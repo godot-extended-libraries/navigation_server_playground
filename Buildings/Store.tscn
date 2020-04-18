@@ -1,0 +1,188 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.172549, 0.156863, 0.129412, 1 )
+
+[node name="Store" type="Spatial"]
+
+[node name="Wall" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.98837, 0 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.791877, -0.175733 )
+operation = 2
+width = 2.42724
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall12" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 6.576, 1.988, -11.19 )
+use_collision = true
+width = 5.7839
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall12"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2028, -0.808694, 0.00735474 )
+operation = 2
+width = 2.51399
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall2" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, -3.59088 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall3" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, -10.5888 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall4" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, -0.00729585, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall5" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 6.9927, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall9" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 13.9051, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall6" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 17.3045, 1.98837, -10.5929 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall7" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 17.3048, 1.98837, -3.59287 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall10" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.8813, 1.98837, -8.20537 )
+use_collision = true
+width = 10.8096
+height = 4.0
+depth = 0.2
+
+[node name="Wall8" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.97966, 1.98837, 0.00109923 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Wall11" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.9386, 1.98837, 0.00109923 )
+use_collision = true
+width = 6.93427
+height = 4.0
+depth = 0.2
+
+[node name="Counter" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6879, 0.574665, -8.53623 )
+use_collision = true
+width = 7.57914
+height = 1.16703
+depth = 0.855772
+
+[node name="Shelf" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.3988, 1.11219, -5.87401 )
+use_collision = true
+width = 7.57914
+height = 2.15789
+depth = 0.138793
+
+[node name="Shelf2" type="CSGBox" parent="Shelf"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, 0.366001, 0.350645 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf5" type="CSGBox" parent="Shelf"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, 0.366001, -0.344917 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf3" type="CSGBox" parent="Shelf"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, -0.453844, 0.350645 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf4" type="CSGBox" parent="Shelf"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, -0.453844, -0.344917 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf2" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.3988, 1.11219, -2.41985 )
+use_collision = true
+width = 7.57914
+height = 2.15789
+depth = 0.138793
+
+[node name="Shelf2" type="CSGBox" parent="Shelf2"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, 0.366001, 0.350645 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf5" type="CSGBox" parent="Shelf2"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, 0.366001, -0.344917 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf3" type="CSGBox" parent="Shelf2"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, -0.453844, 0.350645 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Shelf4" type="CSGBox" parent="Shelf2"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, -0.124713, -0.453844, -0.344917 )
+use_collision = true
+width = 6.91228
+height = 0.547792
+depth = 0.138793
+
+[node name="Floor" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.96389, -0.0234256, -7.09756 )
+width = 20.562
+height = 0.00410302
+depth = 14.2559
+material = SubResource( 1 )

@@ -1,0 +1,316 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.780392, 0.588235, 0.12549, 1 )
+
+[node name="Motel" type="Spatial"]
+
+[node name="Wall" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.98837, 0 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.791877, -0.175733 )
+operation = 2
+width = 2.23615
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall11" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.65071, 1.96556, -5.90935 )
+use_collision = true
+width = 5.29627
+height = 4.04262
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall11"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, -0.325084, -0.791877, -0.175733 )
+operation = 2
+width = 1.26058
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall14" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.1153, 1.96556, -5.90935 )
+use_collision = true
+width = 5.29627
+height = 4.04262
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall14"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, -0.681684, -0.791877, -0.175733 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall20" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5663, 1.96556, -5.90935 )
+use_collision = true
+width = 5.29627
+height = 4.04262
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall20"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, 0.443497, -0.791877, -0.175733 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall24" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.982, 1.96556, -5.90935 )
+use_collision = true
+width = 5.29627
+height = 4.04262
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall24"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, 0.460598, -0.791877, -0.175733 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall12" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.65071, 1.98837, -8.64372 )
+use_collision = true
+width = 5.29627
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall12"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, -0.358589, -0.808694, 0.00735474 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall13" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.1153, 1.98837, -8.64372 )
+use_collision = true
+width = 5.29627
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall13"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, 0.769395, -0.808694, 0.00735474 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall18" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5663, 1.98837, -8.64372 )
+use_collision = true
+width = 5.29627
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall18"]
+transform = Transform( 1.31867, 0, 0, 0, 1, 0, 0, 0, 1, -0.0367126, -0.808694, 0.00735474 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall22" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.9716, 1.98837, -8.63986 )
+use_collision = true
+width = 5.29627
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall22"]
+transform = Transform( 1.20642, 0, 0, 0, 1, 0, 0, 0, 1, 0.38666, -0.808694, 0.00735474 )
+operation = 2
+width = 1.34095
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall2" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, -3.59088 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall3" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, -10.5888 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall4" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, -0.00729585, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall5" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 6.9927, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall25" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 12.4586, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall27" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 17.8915, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall29" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 23.3297, 1.98837, -14.1912 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall6" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 10.3875, 1.98837, -11.3681 )
+use_collision = true
+width = 5.65061
+height = 4.0
+depth = 0.2
+
+[node name="Wall15" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 15.8521, 1.98837, -11.3681 )
+use_collision = true
+width = 5.65061
+height = 4.0
+depth = 0.2
+
+[node name="Wall17" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 21.3031, 1.98837, -11.3681 )
+use_collision = true
+width = 5.65061
+height = 4.0
+depth = 0.2
+
+[node name="Wall21" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 26.7188, 1.98837, -11.3681 )
+use_collision = true
+width = 5.65061
+height = 4.0
+depth = 0.2
+
+[node name="Wall7" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 10.3875, 1.98837, -3.00049 )
+use_collision = true
+width = 6.00876
+height = 4.0
+depth = 0.2
+
+[node name="Wall16" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 15.8521, 1.98837, -3.00049 )
+use_collision = true
+width = 6.00876
+height = 4.0
+depth = 0.2
+
+[node name="Wall19" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 21.3031, 1.98837, -3.00049 )
+use_collision = true
+width = 6.00876
+height = 4.0
+depth = 0.2
+
+[node name="Wall23" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 26.7188, 1.98837, -3.00049 )
+use_collision = true
+width = 6.00876
+height = 4.0
+depth = 0.2
+
+[node name="Wall31" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 26.7188, 1.98837, -7.27769 )
+use_collision = true
+width = 2.79202
+height = 4.0
+depth = 0.2
+
+[node name="Wall9" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 4.95804, 1.98837, -3.05056 )
+use_collision = true
+width = 5.9211
+height = 4.0
+depth = 0.2
+
+[node name="Wall10" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 4.95804, 1.98837, -11.3135 )
+use_collision = true
+width = 5.53995
+height = 4.0
+depth = 0.2
+
+[node name="Wall8" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.97966, 1.98837, 0.00109923 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Wall26" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.4456, 1.98837, 0.00109923 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Wall28" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.8784, 1.98837, 0.00109923 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Wall30" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.3167, 1.98837, 0.00109923 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Floor" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78981, -0.0234256, -7.09756 )
+width = 8.18233
+height = 0.00410302
+depth = 14.2559
+material = SubResource( 1 )
+
+[node name="Floor2" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.7934, -0.0234256, -7.26249 )
+width = 22.0442
+height = 0.00410302
+depth = 2.85827
+material = SubResource( 1 )
+
+[node name="Floor3" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.8024, -0.0234256, -2.93979 )
+width = 21.6713
+height = 0.00410302
+depth = 5.73753
+material = SubResource( 2 )
+
+[node name="Floor4" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.8024, -0.0234256, -11.483 )
+width = 21.6713
+height = 0.00410302
+depth = 5.63843
+material = SubResource( 2 )

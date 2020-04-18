@@ -1,0 +1,200 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Buildings/BuildingProps/DinerTable.tscn" type="PackedScene" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.780392, 0.588235, 0.12549, 1 )
+
+[node name="Diner" type="Spatial"]
+
+[node name="Wall" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0013, 1.98837, 5.97719 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.549137, -0.791877, -0.175733 )
+operation = 2
+width = 2.0483
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall12" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.505987, 1.98837, -5.09686 )
+use_collision = true
+width = 5.63046
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall12"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.788284, -0.808694, 0.00735474 )
+operation = 2
+width = 2.24067
+height = 2.39365
+depth = 0.566614
+
+[node name="Wall13" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.07182, 1.98837, -5.09686 )
+use_collision = true
+width = 7.90145
+height = 4.0
+depth = 0.2
+
+[node name="Doorway" type="CSGBox" parent="Wall13"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0120373, 0.0645041, 0.00735474 )
+operation = 2
+width = 4.24309
+height = 1.33225
+depth = 0.566614
+
+[node name="Wall14" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.07182, 0.463937, -2.82099 )
+use_collision = true
+width = 7.90145
+height = 0.966452
+depth = 0.859358
+
+[node name="Wall2" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, -3.59088 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall6" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, 2.46821 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall3" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.40371, 1.98837, -8.74914 )
+use_collision = true
+width = 3.5473
+height = 4.0
+depth = 0.2
+
+[node name="Wall4" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, -0.00729585, 1.98837, -10.5717 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall5" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 6.9927, 1.98837, -10.5717 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall25" type="CSGBox" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 12.4586, 1.98837, -10.5717 )
+use_collision = true
+width = 7.0
+height = 4.0
+depth = 0.2
+
+[node name="Wall21" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 15.8574, 1.98837, -9.61903 )
+use_collision = true
+width = 1.90824
+height = 4.0
+depth = 0.2
+
+[node name="Wall23" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 15.8574, 1.98837, -3.00049 )
+use_collision = true
+width = 6.00876
+height = 4.0
+depth = 0.2
+
+[node name="Wall24" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 15.8574, 1.98837, 2.95479 )
+use_collision = true
+width = 6.00876
+height = 4.0
+depth = 0.2
+
+[node name="Wall31" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 15.8574, 1.98837, -7.27769 )
+use_collision = true
+width = 2.79202
+height = 4.0
+depth = 0.2
+
+[node name="Wall10" type="CSGBox" parent="."]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 2.37031, 1.98837, -7.76664 )
+use_collision = true
+width = 5.53995
+height = 4.0
+depth = 0.2
+
+[node name="Wall8" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0100985, 1.98837, 5.97829 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Wall26" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.4456, 1.98837, 5.97829 )
+use_collision = true
+width = 7.01668
+height = 4.0
+depth = 0.2
+
+[node name="Floor" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.19807, -0.0234256, -6.78407 )
+width = 19.2962
+height = 0.00410302
+depth = 7.5457
+material = SubResource( 1 )
+
+[node name="Floor4" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.19745, -0.0234256, 1.46558 )
+width = 19.184
+height = 0.00410302
+depth = 8.93509
+material = SubResource( 2 )
+
+[node name="DinerTable" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44934, 0, 4.62333 )
+
+[node name="DinerTable10" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44934, 0, 0.68096 )
+
+[node name="DinerTable2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0060432, 0, 4.62333 )
+
+[node name="DinerTable8" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0060432, 0, 0.68096 )
+
+[node name="DinerTable3" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.61646, 0, 4.62333 )
+
+[node name="DinerTable9" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.61646, 0, 0.68096 )
+
+[node name="DinerTable4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.34748, 0, 4.62333 )
+
+[node name="DinerTable12" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.34748, 0, 0.68096 )
+
+[node name="DinerTable5" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.1025, 0, 4.62333 )
+
+[node name="DinerTable11" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.1025, 0, 0.68096 )
+
+[node name="DinerTable6" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.9143, 0, 4.62333 )
+
+[node name="DinerTable7" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.9143, 0, 0.68096 )
