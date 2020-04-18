@@ -6,6 +6,7 @@ var gravity = 100
 onready var target: MeshInstance = $'../Target'
 onready var agent: NavigationAgent = $NavigationAgent
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	$Timer.connect('timeout', self, 'update_location')
@@ -13,7 +14,7 @@ func _ready() -> void:
 	agent.max_speed = speed
 	agent.set_target_location(target.global_transform.origin)
 	randomize()
-	
+
 
 func _physics_process(delta: float) -> void:
 	var next_location = agent.get_next_location()
@@ -21,7 +22,7 @@ func _physics_process(delta: float) -> void:
 	var velocity = space.normalized() * speed
 	velocity.y += gravity * delta
 	agent.set_velocity(velocity)
-	
+
 
 func _on_NavigationAgent_velocity_computed(safe_velocity):
 	move_and_slide(safe_velocity, Vector3.UP)

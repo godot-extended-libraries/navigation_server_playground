@@ -1,11 +1,12 @@
 extends MeshInstance
 
-
 var velocity := Vector3()
 var speed := 100
 
+
 func _ready():
 	OS.window_maximized = true
+
 
 func _process(delta: float) -> void:
 	velocity = Vector3.ZERO

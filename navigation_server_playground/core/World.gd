@@ -1,6 +1,5 @@
 extends Spatial
 
-
 var number_of_enemies: int = 0
 export (PackedScene) var obstacle
 
