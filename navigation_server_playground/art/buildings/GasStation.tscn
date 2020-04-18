@@ -1,6 +1,10 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Buildings/wall.material" type="Material" id=1]
+[ext_resource path="res://navigation_server_playground/art/buildings/wall.material" type="Material" id=1]
+
+
+
+
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.172549, 0.156863, 0.129412, 1 )
